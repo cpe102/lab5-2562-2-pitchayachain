@@ -20,16 +20,15 @@ int i = 0;
 	
 	int key;
 	cout << "--------------------------------------\n";
-
 	cout << "Enter an age to search: ";
 	cin >> key;
-		
 	cout << "--------------------------------------\n";
-	
-	i =0 ;
-	while(i < N){
-	cout << name[i] << "\n";
-	i++;
+	int g = 0 ;
+	while(g < N){
+		if(key==age[g]){
+	cout << name[g] << "\n";
+		}
+	g++;
 	}
 
 
